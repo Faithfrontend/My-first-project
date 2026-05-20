@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
@@ -30,7 +34,7 @@ header {
 /* Logo image — swap src to your real logo file */
 .logo-img {
   height: 42px;
-  width: auto;
+  width: 10rem;
   object-fit: contain;
   display: block;
   position: absolute;
@@ -58,7 +62,7 @@ header {
 .desktop-nav {
   background-color: rgba(240, 232, 232, 0.89);
   width: fit-content;
-  margin: 0.5em 12em;
+  margin: 0.5em 20em;
   border-radius: 2em;
   padding: 0.8em 2em;
   position: sticky;
@@ -176,7 +180,7 @@ ul li a:hover {
   top: 0;
   left: -300px;               /* hidden off-screen to the left */
   width: 280px;
-  height: 100vh;
+  height: 10;
   background: linear-gradient(160deg, #1a1a1a 0%, #2c1a0e 60%, #1a1a1a 100%);
   z-index: 999;
   display: flex;
@@ -719,6 +723,10 @@ ul li a:hover {
   margin-bottom: 8px;
 }
 
+ .testimonials h2 span {
+  color: #ff7200;
+}
+
 .sub {
   text-align: center;
   color: #888;
@@ -947,7 +955,6 @@ footer p {
     font-size: 1.3em;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-   margin-top: 10px;
   }
 
   .desktop-nav {
